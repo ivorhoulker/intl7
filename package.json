@@ -1,5 +1,5 @@
 {
-  "name": "@3nvi/gatsby-theme-intl",
+  "name": "@ivor/gatsby-theme-intl",
   "private": false,
   "main": "index.js",
   "description": "A theme to automate the mundane tasks of translation & localization of static pages",
