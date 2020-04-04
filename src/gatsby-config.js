@@ -3,7 +3,7 @@ const gatsbyConfig = ({ i18nextConfig, ...intlPluginOpts }) => ({
   plugins: [
     'gatsby-plugin-react-helmet',
     {
-      resolve: '@3nvi/gatsby-plugin-intl',
+      resolve: '@ivor/gatsby-plugin-intl',
       options: intlPluginOpts,
     },
   ],
