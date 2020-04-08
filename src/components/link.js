@@ -4,9 +4,9 @@ import { Link as GatsbyLink } from 'gatsby';
 import { usePageContext } from '../page-context';
 
 const Link = React.forwardRef(({ to, ...rest }, ref) => {
-  const { lang } = usePageContext();
+  const { langUrl } = usePageContext();
 
-  return <GatsbyLink {...rest} ref={ref} to={lang ? `/${lang}${to}` : to} />;
+  return <GatsbyLink {...rest} ref={ref} to={langUrl ? `/${langUrl}${to}` : to} />;
 });
 
 export default Link;
