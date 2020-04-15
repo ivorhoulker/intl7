@@ -8,5 +8,5 @@ const gatsbyConfig = ({ i18nextConfig, ...intlPluginOpts }) => ({
     },
   ],
 });
-
+//new
 export default gatsbyConfig;
