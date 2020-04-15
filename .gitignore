@@ -2,3 +2,4 @@
 /*.d.ts
 /components
 package-lock.json
+node_modules
